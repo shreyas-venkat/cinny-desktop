@@ -1,13 +1,13 @@
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [package]
-name = "cinny"
-version = "4.10.3"
-description = "Yet another matrix client"
-authors = ["Ajay Bura"]
+name = "lobby"
+version = "1.0.0"
+description = "Private chat for you and your friends"
+authors = ["Lobby"]
 license = "AGPL-3.0-only"
-repository = "https://github.com/cinnyapp/cinny-desktop"
-default-run = "cinny"
+repository = "https://github.com/shreyas-venkat/cinny-desktop"
+default-run = "lobby"
 edition = "2021"
 rust-version = "1.61"
 

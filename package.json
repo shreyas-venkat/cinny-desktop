@@ -1,17 +1,17 @@
 {
-  "name": "cinny",
-  "version": "4.10.3",
-  "description": "Yet another matrix client",
+  "name": "lobby",
+  "version": "1.0.0",
+  "description": "Private chat for you and your friends",
   "main": "index.js",
   "engines": {
     "node": ">=16.0.0"
   },
   "scripts": {
-    "tauri": "cp config.json cinny/ && tauri",
+    "tauri": "cp config.json ../cinny/ && tauri",
     "release": "node scripts/release.mjs"
   },
   "keywords": [],
-  "author": "Ajay Bura",
+  "author": "Lobby",
   "license": "AGPL-3.0-only",
   "dependencies": {
     "@tauri-apps/api": "1.6.0"

@@ -1,19 +1,19 @@
 {
   "package": {
-    "productName": "Cinny",
-    "version": "4.10.3"
+    "productName": "Lobby",
+    "version": "1.0.0"
   },
   "build": {
-    "distDir": "../cinny/dist",
+    "distDir": "../../cinny/dist",
     "devPath": "http://localhost:8080",
-    "beforeDevCommand": "cd cinny && npm start",
-    "beforeBuildCommand": "cd cinny && npm run build"
+    "beforeDevCommand": "cd ../cinny && npm start",
+    "beforeBuildCommand": "cd ../cinny && npm run build"
   },
   "tauri": {
     "bundle": {
       "active": true,
       "targets": "all",
-      "identifier": "in.cinny.app",
+      "identifier": "ink.lobby.app",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
@@ -25,7 +25,7 @@
       "externalBin": [],
       "copyright": "",
       "category": "SocialNetworking",
-      "shortDescription": "Yet another matrix client",
+      "shortDescription": "Private chat for you and your friends",
       "longDescription": "",
       "deb": {
         "depends": []
@@ -49,19 +49,14 @@
       }
     },
     "updater": {
-      "active": true,
-      "endpoints": [
-          "https://github.com/cinnyapp/cinny-desktop/releases/download/tauri/release.json"
-      ],
-      "dialog": true,
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDE2NDc3NDBGMTAzNTk1NUYKUldSZmxUVVFEM1JIRnRuMjVRTkFOQ21lUFI5KzRMU0s4OWtBS1RNRUVCNE9LcE9GcExNZ2M2NHoK"
+      "active": false
     },
     "allowlist": {
       "all": true
     },
     "windows": [
       {
-        "title": "Cinny",
+        "title": "Lobby",
         "width": 1280,
         "height": 905,
         "center": true,
